@@ -64,7 +64,6 @@ export function ReferralPanel() {
     args: [address as `0x${string}`],
     query: {
       enabled: isConnected && !!address && !!contractAddress,
-      watch: true, 
     },
   });
 

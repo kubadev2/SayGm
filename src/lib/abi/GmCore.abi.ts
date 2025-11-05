@@ -1,3 +1,4 @@
+export const GmCoreAbi =
 [
 	{
 		"inputs": [],
@@ -550,4 +551,4 @@
 		"stateMutability": "view",
 		"type": "function"
 	}
-]
+] as const;
