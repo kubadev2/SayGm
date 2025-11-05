@@ -9,5 +9,5 @@ export const gmCoreConfig = {
     [baseSepolia.id]: '0x2019A32b0ed6fc326f586D180265A6a9F518E86b' as `0x${string}`,
     [arbitrumSepolia.id]: '0xEE66AD084925c23B7d87530148E33825a0D0982C' as `0x${string}`,
   } as const, 
-  abi: GmCoreAbi,
+  abi: GmCoreAbi as const,
 };
